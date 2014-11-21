@@ -10,8 +10,8 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		
 		config.title = "Crush Threes";
-		config.width = 600;
-		config.height = 960;
+		config.width = 480;
+		config.height = 800;
 		config.resizable = false;
 		config.fullscreen = false;
 		config.addIcon("bin/ic_launcher.png", FileType.Internal);

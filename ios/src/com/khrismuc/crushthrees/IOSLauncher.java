@@ -11,9 +11,6 @@ public class IOSLauncher extends IOSApplication.Delegate {
     @Override
     protected IOSApplication createApplication() {
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
-        
-        config.useCompass = false;
-        
         return new IOSApplication(new CrushThrees(), config);
     }
 

@@ -12,7 +12,7 @@ public class IOSLauncher extends IOSApplication.Delegate {
     protected IOSApplication createApplication() {
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
         
-        config.preferredFramesPerSecond = 40;
+        config.preferredFramesPerSecond = 30;
         
         return new IOSApplication(new CrushThrees(), config);
     }
